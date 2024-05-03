@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    position: relative; 
+}
+
+.WelcomeTitle {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+}
+
+.settings {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px; 
+    top: 20px; 
+}
+
+.main {
+    color: white;
+    text-align: center;
+    
+}
+
+.regenerate {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    margin-top: 20px;
+    border: none; 
+    border-radius: 15px;
+    font-size: 15px;
+}
+.quoteplace {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
